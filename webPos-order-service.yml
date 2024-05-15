@@ -8,7 +8,7 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
-  jap:
+  jpa:
     hibernate:
-      ddl-auto: create
-  show-sql: true
+      ddl-auto: update
+    show-sql: true
